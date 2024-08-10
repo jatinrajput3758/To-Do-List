@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(4, 29, 29);
+}
+
+.container {
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.task-input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(4, 29, 29);
+    outline: none;
+}
+
+.add-btn {
+    width: 60px;
+    height: 41px;
+    color: white;
+    background-color: rgb(4, 29, 29);
+    border-radius: 2px;
+    font-size: 19px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.text ul {
+    position: relative;
+    background: rgb(4, 29, 29);
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    padding: 9px;
+    border-radius: 2px;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    border-color: rebeccapurple;
+}
